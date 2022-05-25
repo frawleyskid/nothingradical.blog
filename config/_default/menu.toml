@@ -1,0 +1,7 @@
+[[main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight =  10
+[main.params]
+    icon = "home"

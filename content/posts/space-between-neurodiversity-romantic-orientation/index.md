@@ -1,7 +1,7 @@
 ---
 title: "The Space Between My Neurodiversity and My Romantic Orientation"
 slug: "the-space-between-my-neurodiversity-and-my-romantic-orientation"
-publishDate: "2022-01-22"
+date: "2022-01-22"
 description: >
     I talk about the "in-between spaces" between my neurodiversity and my
     romantic orientation and just how interconnected those aspects of my
