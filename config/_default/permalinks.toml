@@ -1,0 +1,3 @@
+posts = "/:year/:month/:day/:slug/"
+categories = "/category/:title/"
+tags = "/tag/:title/"

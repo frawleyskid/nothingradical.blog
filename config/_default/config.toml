@@ -1,0 +1,4 @@
+baseurl = "https://nothingradical.blog"
+languageCode = "en-us"
+paginate = 5
+title = "Nothing Radical"
