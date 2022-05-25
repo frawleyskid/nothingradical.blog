@@ -1,5 +1,6 @@
 ---
 title: "About"
+description: "Frawley (they/them)"
 slug: "about"
 menu:
   main:
@@ -11,6 +12,8 @@ links:
     description: "A curated online archive for preserving asexual history."
     website: "https://acearchive.lgbt"
     image: "/images/ace-archive-icon.png"
+aliases:
+  - "contact"
 ---
 
 Hey, I’m Frawley! I’m a queer and neurodivergent non-binary person, and I go by
@@ -23,7 +26,10 @@ actually quoiromantic. I’m also polyamorous and a relationship anarchist.
 As for my neurodivergence, I’m anxious and autistic. Please don’t tell me I
 have “mild” autism—my autism is actually quite spicy.
 
-By day I’m a software engineer, both professionally and as a hobby.
-
 I also run [Ace Archive](https://acearchive.lgbt), a project to build an online
 archive for preserving asexual history.
+
+If you want to shoot me a message to make a suggestion, ask a question, leave a
+comment, or get it touch for any other reason, you can email me at:
+
+<frawleyskid@gmail.com>
