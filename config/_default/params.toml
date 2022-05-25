@@ -1,6 +1,6 @@
 mainSections = ["posts"]
 rssFullContent = true
-favicon = "images/neurodiversity-infinity.png"
+favicon = "/images/neurodiversity-infinity.png"
 
 [footer]
 since = 2020
@@ -14,8 +14,8 @@ subtitle = "A blog about queer stuff and neurodiversity"
 
 [sidebar.avatar]
 enabled = true
-local = true
-src = "images/neurodiversity-infinity.png"
+local = false
+src = "/images/neurodiversity-infinity.png"
 
 [article]
 math = false
