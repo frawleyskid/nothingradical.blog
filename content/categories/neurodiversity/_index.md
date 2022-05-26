@@ -1,3 +1,4 @@
 ---
 title: "Neurodiversity"
+slug: "neurodiversity"
 ---

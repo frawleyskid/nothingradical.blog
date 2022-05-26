@@ -1,4 +1,4 @@
 posts = "/:year/:month/:day/:slug/"
-categories = "/category/:title/"
+categories = "/category/:slug/"
 tags = "/tag/:title/"
 page = "/:slug/"
