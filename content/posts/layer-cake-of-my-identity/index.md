@@ -19,6 +19,9 @@ tags:
     - "labels"
     - "language"
     - "microlabels"
+author:
+    name: "Frawley"
+    email: "frawleyskid@gmail.com"
 ---
 
 *This post was written for the [May 2021 Carnival of

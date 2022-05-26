@@ -18,6 +18,9 @@ tags:
     - "non-binary"
     - "third gender"
     - "transgender"
+author:
+    name: "Frawley"
+    email: "frawleyskid@gmail.com"
 ---
 
 Within the transgender community, there are different conceptual models we use

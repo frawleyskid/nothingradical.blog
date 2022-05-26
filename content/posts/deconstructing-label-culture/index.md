@@ -17,6 +17,9 @@ tags:
     - "labels"
     - "microlabels"
     - "spectrums"
+author:
+    name: "Frawley"
+    email: "frawleyskid@gmail.com"
 ---
 
 While most people are familiar with the most common labels queer people use to

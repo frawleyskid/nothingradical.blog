@@ -18,6 +18,9 @@ tags:
     - "invisible disabilities"
     - "labels"
     - "neurodiversity"
+author:
+    name: "Frawley"
+    email: "frawleyskid@gmail.com"
 ---
 
 I’m autistic, and I consider my autism to be a disability. Not all autistic

@@ -19,6 +19,9 @@ tags:
     - "quoiromantic"
     - "social norms"
     - "social scripts"
+author:
+    name: "Frawley"
+    email: "frawleyskid@gmail.com"
 ---
 
 *This post was written for the [January 2022 Carnival of

@@ -16,6 +16,9 @@ tags:
     - "slurs"
     - "symbols"
     - "voidpunk"
+author:
+    name: "Frawley"
+    email: "frawleyskid@gmail.com"
 ---
 
 In an increasingly progressive society, marginalized groups are more and more

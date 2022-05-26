@@ -18,6 +18,9 @@ tags:
     - "language"
     - "non-binary"
     - "transgender"
+author:
+    name: "Frawley"
+    email: "frawleyskid@gmail.com"
 ---
 
 *This post was written for the [May 2021 Carnival of

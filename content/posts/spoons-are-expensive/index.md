@@ -14,6 +14,9 @@ tags:
     - "invisible disabilities"
     - "neurodiversity"
     - "spoon theory"
+author:
+    name: "Frawley"
+    email: "frawleyskid@gmail.com"
 ---
 
 It's no surprise that living with a chronic illness or disability in the US can

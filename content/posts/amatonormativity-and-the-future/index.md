@@ -15,6 +15,9 @@ tags:
     - "aromantic"
     - "asexual"
     - "coming out"
+author:
+    name: "Frawley"
+    email: "frawleyskid@gmail.com"
 ---
 
 *This post was written for the [August 2021 Carnival of

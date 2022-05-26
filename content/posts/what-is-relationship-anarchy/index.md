@@ -15,6 +15,9 @@ tags:
     - "relationship anarchy"
     - "relationships"
     - "romance"
+author:
+    name: "Frawley"
+    email: "frawleyskid@gmail.com"
 ---
 
 Traditionally, we categorize our relationships with labels, usually either as

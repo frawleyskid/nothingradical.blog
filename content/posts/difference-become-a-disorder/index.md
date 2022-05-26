@@ -17,6 +17,9 @@ tags:
     - "gatekeeping"
     - "disorders"
     - "mental health"
+author:
+    name: "Frawley"
+    email: "frawleyskid@gmail.com"
 ---
 
 A common form of hate minority communities face is people pathologizing their

@@ -17,6 +17,9 @@ tags:
     - "heteronormativity"
     - "patriarchy"
     - "toxic heteronormativity"
+author:
+    name: "Frawley"
+    email: "frawleyskid@gmail.com"
 ---
 
 There's a lot of contempt for cisgender heterosexual (cishet) people in queer

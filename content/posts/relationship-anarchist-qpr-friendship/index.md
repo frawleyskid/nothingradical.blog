@@ -15,6 +15,9 @@ tags:
     - "queerplatonic"
     - "relationship anarchy"
     - "relationships"
+author:
+    name: "Frawley"
+    email: "frawleyskid@gmail.com"
 ---
 
 *This post was written for the [October 2021 Carnival of

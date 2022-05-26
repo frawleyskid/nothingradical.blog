@@ -21,7 +21,9 @@ tags:
     - "relationship anarchy"
     - "romance"
     - "spectrums"
-    
+author:
+    name: "Frawley"
+    email: "frawleyskid@gmail.com"
 ---
 *This post was written for the [January 2022 Carnival of
 Aces](https://bringonthepigeons.wordpress.com/2022/01/05/january-2022-carnival-of-aces-divergence-vs-convergence/),

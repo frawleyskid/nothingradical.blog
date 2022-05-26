@@ -18,6 +18,9 @@ tags:
     - "functioning labels"
     - "labels"
     - "spectrums"
+author:
+    name: "Frawley"
+    email: "frawleyskid@gmail.com"
 ---
 
 Autism is a disorder that most people are vaguely familiar with. Unfortunately,

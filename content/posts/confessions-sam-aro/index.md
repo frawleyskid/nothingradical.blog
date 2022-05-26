@@ -17,6 +17,9 @@ tags:
     - "language"
     - "quoiromantic"
     - "split-attraction model"
+author:
+    name: "Frawley"
+    email: "frawleyskid@gmail.com"
 ---
 
 *This post was written for the [September 2021 Carnival of

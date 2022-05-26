@@ -19,6 +19,9 @@ tags:
     - "labels"
     - "language"
     - "satanism"
+author:
+    name: "Frawley"
+    email: "frawleyskid@gmail.com"
 ---
 
 *Update (25 May 2022): While I mentioned it in passing, this essay doesn't
