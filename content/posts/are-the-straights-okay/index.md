@@ -1,6 +1,7 @@
 ---
 title: "Are the Straights Okay?"
 slug: "are-the-straights-okay"
+id: "80dc4057-3b08-4829-9322-90846e54e971"
 date: "2020-06-13"
 description: >
     Casual banter among queer folks complaining about systemic oppression is

@@ -1,6 +1,7 @@
 ---
 title: "The Power of Reappropriation Protest"
 slug: "the-power-of-reappropriation-protest"
+id: "849fce41-9b60-41a6-b6a6-158f5c3b0bb5"
 date: "2020-06-11"
 description: >
     Many people are familiar with how slurs are sometimes reclaimed by the

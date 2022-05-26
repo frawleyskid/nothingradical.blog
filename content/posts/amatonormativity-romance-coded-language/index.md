@@ -1,6 +1,7 @@
 ---
 title: "The Amatonormativity in Romance-Coded Language"
 slug: "the-amatonormativity-in-romance-coded-language"
+id: "ba7ca327-59fc-4cb6-bf76-65b48dd04753"
 date: "2021-04-30"
 description: >
     The language we use to talk about relationships is steeped in

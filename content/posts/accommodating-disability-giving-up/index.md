@@ -1,6 +1,7 @@
 ---
 title: "Accommodating My Disability Is Not \"Giving Up\""
 slug: "accommodating-my-disability-is-not-giving-up"
+id: "279fd7e9-eecd-4cb1-899e-bf21914c4d02"
 date: "2021-09-05"
 description: >
     I've noticed a pattern in a lot of the "supportive" messaging I recieve

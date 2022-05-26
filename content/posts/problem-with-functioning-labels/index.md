@@ -1,6 +1,7 @@
 ---
 title: "The Problem With Functioning Labels"
 slug: "the-problem-with-functioning-labels"
+id: "6949c38f-218a-462e-9a9f-ea23351da7ff"
 date: "2020-10-25"
 description: >
     Neurotypical people tend to use labels like "high-functioning" and

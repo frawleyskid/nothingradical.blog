@@ -1,6 +1,7 @@
 ---
 title: "A Relationship Anarchist Perspective on QPRs and Friendship"
 slug: "a-relationship-anarchist-perspective-on-qprs-and-friendship"
+id: "29ecc264-6c26-4b44-8d63-383017171da7"
 date: "2021-10-06"
 description: >
     Where I talk about QPRs, relationship anarchy, how I personally find QPRs
