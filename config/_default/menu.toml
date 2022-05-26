@@ -5,3 +5,11 @@
     weight =  10
 [main.params]
     icon = "home"
+
+[[social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/frawleyskid/nothingradical.blog"
+
+[social.params]
+icon = "brand-github"
