@@ -9,8 +9,8 @@
 {{ $page.RelPermalink }}
     {{- if eq $page.Type "posts" }}
     {{- $hyvor := resources.Get "js/hyvor.js" | resources.ExecuteAsTemplate (path.Join .RelPermalink "hyvor.js") $page | minify | fingerprint "sha512" }}
-    Content-Security-Policy: default-src 'none'; connect-src 'self'; prefetch-src 'self'; font-src 'self'; script-src 'self' https://talk.hyvor.com '{{ $hyvor.Data.Integrity }}' 'sha256-EVuOptNwU09DnoUk/lh+TDupJ8yFnl7TfFTFKeIeCeA=' 'sha256-ayQL23Cw0YYrrsYbOGwymK8v76b5rQX/uFmLtYUGskI='; img-src 'self'; style-src 'self' https://cdn.jsdelivr.net; frame-ancestors 'none'; frame-src https://talk.hyvor.com; base-uri 'self'; form-action 'self'
+    Content-Security-Policy: default-src 'none'; connect-src 'self'; prefetch-src 'self'; font-src 'self'; script-src 'self' https://cdn.jsdelivr.net https://talk.hyvor.com '{{ $hyvor.Data.Integrity }}' 'sha256-EVuOptNwU09DnoUk/lh+TDupJ8yFnl7TfFTFKeIeCeA=' 'sha256-ayQL23Cw0YYrrsYbOGwymK8v76b5rQX/uFmLtYUGskI=' 'sha256-/rZ1qzoxSq+HseQMty9lBVl0ob6R7f6SmogG6Udj360='; img-src 'self'; style-src 'self' https://cdn.jsdelivr.net; frame-ancestors 'none'; frame-src https://talk.hyvor.com; base-uri 'self'; form-action 'self'
     {{- else }}
-    Content-Security-Policy: default-src 'none'; connect-src 'self'; prefetch-src 'self'; font-src 'self'; script-src 'self' https://cdn.jsdelivr.net 'sha256-EVuOptNwU09DnoUk/lh+TDupJ8yFnl7TfFTFKeIeCeA=' 'sha256-ayQL23Cw0YYrrsYbOGwymK8v76b5rQX/uFmLtYUGskI='; img-src 'self'; style-src 'self' https://cdn.jsdelivr.net; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+    Content-Security-Policy: default-src 'none'; connect-src 'self'; prefetch-src 'self'; font-src 'self'; script-src 'self' https://cdn.jsdelivr.net 'sha256-EVuOptNwU09DnoUk/lh+TDupJ8yFnl7TfFTFKeIeCeA=' 'sha256-ayQL23Cw0YYrrsYbOGwymK8v76b5rQX/uFmLtYUGskI=' 'sha256-/rZ1qzoxSq+HseQMty9lBVl0ob6R7f6SmogG6Udj360='; img-src 'self'; style-src 'self' https://cdn.jsdelivr.net; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
     {{- end }}
 {{ end }}
