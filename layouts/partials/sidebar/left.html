@@ -57,7 +57,7 @@
   </header>
 
   {{- with .Site.Menus.social -}}
-    <ol class="social-menu">
+    <ol role="navigation" class="social-menu" aria-label="Social">
       {{ range . }}
         <li>
           <a
@@ -76,7 +76,7 @@
   {{- end -}}
 
 
-  <ol class="menu" id="main-menu">
+  <ol class="menu" id="main-menu" role="navigation" aria-label="Main">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
       {{ $active := or (eq $currentPage.Title .Name) (or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .)) }}
@@ -116,7 +116,7 @@
       {{ end }}
 
       {{ if (default false .Site.Params.colorScheme.toggle) }}
-        <li id="dark-mode-toggle">
+        <li role="button" id="dark-mode-toggle">
           {{ partial "helper/icon" "toggle-left" }}
           {{ partial "helper/icon" "toggle-right" }}
           <span>{{ T "darkMode" }}</span>
