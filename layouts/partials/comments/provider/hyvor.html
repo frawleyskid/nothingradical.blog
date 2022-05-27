@@ -2,7 +2,7 @@
 {{- $hyvor := resources.Get "js/hyvor.js" | resources.ExecuteAsTemplate (path.Join .RelPermalink "hyvor.js") . | minify -}}
 {{- $config := resources.Get "js/config.js" | resources.ExecuteAsTemplate (path.Join .RelPermalink "config.js") . | minify | fingerprint "sha512" -}}
 <div id="hyvor-talk-view"></div>
-<script type="text/javascript" src="{{ $config.Permalink }}" integrity="{{ $config.Data.Integrity }}" crossorigin="anonymous" defer></script>
+<script type="text/javascript" src="{{ $config.Permalink }}" integrity="{{ $config.Data.Integrity }}" crossorigin="anonymous"></script>
 <script type="text/javascript" defer>{{ $hyvor.Content | safeJS }}</script>
 <script type="text/javascript" src="//talk.hyvor.com/web-api/embed" defer></script>
 {{- end }}
