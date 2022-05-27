@@ -9,7 +9,7 @@ name = "Frawley"
 email = "frawleyskid@gmail.com"
 
 [outputs]
-home = ["HEADERS"]
+home = ["HTML", "RSS", "HEADERS"]
 
 [outputFormats.HEADERS]
 mediaType = "text/netlify"
