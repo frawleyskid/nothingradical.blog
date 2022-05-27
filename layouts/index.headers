@@ -9,6 +9,6 @@
 
 {{ range $post := where .Site.RegularPages "Type" "posts" }}
 {{ $post.RelPermalink }}
-    {{- $hyvor := resources.Get "js/hyvor.js" | resources.ExecuteAsTemplate (path.Join .RelPermalink "hyvor.js") . | js.Build | fingerprint "sha512" }}
+    {{- $hyvor := resources.Get "js/hyvor.js" | resources.ExecuteAsTemplate (path.Join .RelPermalink "hyvor.js") $post | minify | fingerprint "sha512" }}
     Content-Security-Policy: default-src 'none'; connect-src 'self'; prefetch-src 'self'; font-src 'self'; script-src 'self' https://talk.hyvor.com '{{ $hyvor.Data.Integrity }}'; img-src 'self'; style-src 'self'; frame-ancestors 'none'; frame-src https://talk.hyvor.com; base-uri 'self'; form-action 'self'
 {{ end }}
