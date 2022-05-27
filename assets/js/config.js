@@ -19,9 +19,9 @@ const hyvorCommentLightPalette = {
 const hyvorCommentDarkPalette = {
   accent: "#ffffff",
   accentText: "#000000",
-  footerHeader: "#424242",
+  footerHeader: "#606060",
   footerHeaderText: "#cac7c7",
-  box: "#606060",
+  box: "#424242",
   boxText: "#ffffff",
   boxLightText: "#aaaaaa",
   backgroundText: "#ffffff",
