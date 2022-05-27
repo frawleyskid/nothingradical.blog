@@ -1,0 +1,6 @@
+{{- $js := resources.Get "js/hyvor.js" | resources.ExecuteAsTemplate (path.Join .RelPermalink "hyvor.js") . -}}
+<div id="hyvor-talk-view"></div>
+<script type="text/javascript">
+  {{ $js.Content | safeJS }}
+</script>
+<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>

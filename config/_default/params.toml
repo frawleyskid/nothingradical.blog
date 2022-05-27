@@ -5,6 +5,13 @@ favicon = "/images/neurodiversity-infinity.png"
 [footer]
 since = 2020
 
+[comments]
+enabled = true
+provider = "hyvor"
+
+[comments.hyvor]
+siteid = 7134
+
 [dateFormat]
 published = "02 Jan 2006"
 lastUpdated = "02 Jan 2006 15:04 MST"

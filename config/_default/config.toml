@@ -5,5 +5,18 @@ title = "Nothing Radical"
 copyright = "© Frawley CC BY-NC-ND 4.0"
 
 [author]
-    name = "Frawley"
-    email = "frawleyskid@gmail.com"
+name = "Frawley"
+email = "frawleyskid@gmail.com"
+
+[outputs]
+home = ["HEADERS"]
+
+[outputFormats.HEADERS]
+mediaType = "text/netlify"
+baseName = "_headers"
+isPlainText = true
+notAlternative = true
+
+[mediaTypes."text/netlify"]
+suffixes = [""]
+delimiter = ""
