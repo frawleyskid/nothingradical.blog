@@ -1,0 +1,14 @@
+main:
+  - identifier: "home"
+    name: "Home"
+    url: "/"
+    weight: 10
+    params:
+      icon: "home"
+
+social:
+  - identifier: "github"
+    name: "GitHub"
+    url: "https://github.com/frawleyskid/nothingradical.blog"
+    params:
+      icon: "brand-github"

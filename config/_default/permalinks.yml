@@ -1,0 +1,4 @@
+posts: "/:year/:month/:day/:slug/"
+categories: "/category/:slug/"
+tags: "/tag/:title/"
+page: "/:slug/"

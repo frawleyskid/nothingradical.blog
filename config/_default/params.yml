@@ -1,0 +1,58 @@
+mainSections: ["posts"]
+rssFullContent: true
+favicon: "/images/neurodiversity-infinity.png"
+
+footer:
+  since: 2020
+
+comments:
+  enabled: true
+  provider: "hyvor"
+  hyvor:
+    siteid: 7134
+
+dateFormat:
+  published: "02 Jan 2006"
+  lastUpdated: "02 Jan 2006 15:04 MST"
+
+sidebar:
+  subtitle: "A blog about queer stuff and neurodiversity"
+  avatar:
+    enabled: true
+    local: false
+    src: "/images/neurodiversity-infinity.png"
+
+article:
+  math: false
+  readingTime: true
+  license:
+    enabled: true
+    default: "Licensed under CC BY-NC-ND 4.0"
+
+widgets:
+  homepage:
+    - type: "search"
+    - type: "archives"
+      params:
+        limit: 5
+    - type: "categories"
+      params:
+        limit: 10
+    - type: "tag-cloud"
+      params:
+        limit: 20
+
+opengraph:
+  twitter:
+    site: ""
+    card: "summary_large_image"
+
+colorScheme:
+  toggle: true
+  default: "auto"
+
+imageProcessing:
+  cover:
+    enabled: true
+  content:
+    enabled: true
