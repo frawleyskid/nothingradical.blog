@@ -11,7 +11,7 @@ links:
   - title: "Ace Archive"
     description: "A curated online archive for preserving asexual history."
     website: "https://acearchive.lgbt"
-    image: "/images/ace-archive-icon.png"
+    image: "/images/ace-archive-logo.webp"
 aliases:
   - "contact"
 ---

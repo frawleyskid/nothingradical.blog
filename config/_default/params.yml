@@ -1,6 +1,6 @@
 mainSections: ["posts"]
 rssFullContent: true
-favicon: "/images/neurodiversity-infinity.png"
+favicon: "/images/logo.webp"
 
 footer:
   since: 2020
@@ -20,7 +20,7 @@ sidebar:
   avatar:
     enabled: true
     local: false
-    src: "/images/neurodiversity-infinity.png"
+    src: "/images/logo.webp"
 
 article:
   math: false
