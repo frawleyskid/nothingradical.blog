@@ -18,14 +18,8 @@ outputFormats:
     baseName: "_headers"
     isPlainText: true
     notAlternative: true
-  RSS:
-    mediaType: "application/rss+xml"
-    baseName: "feed"
 
 mediaTypes:
   text/netlify:
-    suffixes: [""]
-    delimiter: ""
-  application/rss+xml:
     suffixes: [""]
     delimiter: ""
