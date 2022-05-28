@@ -1,70 +1,74 @@
+form:
+  submit:
+    other: يرسل
+
 toggleMenu:
-    other: اخفي القائمة
+  other: اخفي القائمة
 
 darkMode:
-    other: الوضع الداكن
+  other: الوضع الداكن
 
 list:
-    page:
-        one: "{{ .Count }} صفحه"
-        other: "{{ .Count }} صفحات"
+  page:
+    one: "{{ .Count }} صفحه"
+    other: "{{ .Count }} صفحات"
 
-    section:
-        other: قسم
+  section:
+    other: قسم
 
-    subsection:
-        one: قسم فرعي
-        other: اقسام فرعية
+  subsection:
+    one: قسم فرعي
+    other: اقسام فرعية
 
 article:
-    back:
-        other: خلف
+  back:
+    other: خلف
 
-    tableOfContents:
-        other: جدول المحتويات
+  tableOfContents:
+    other: جدول المحتويات
 
-    relatedContents:
-        other: محتوى مشابهه
-        
-    lastUpdatedOn:
-        other: التعديل الاخير
+  relatedContents:
+    other: محتوى مشابهه
 
-    readingTime:
-        one: "تُقرأ خلال دقيقة"
-        other: "تُقرأ خلال {{ .Count }} دقائق"
+  lastUpdatedOn:
+    other: التعديل الاخير
+
+  readingTime:
+    one: "تُقرأ خلال دقيقة"
+    other: "تُقرأ خلال {{ .Count }} دقائق"
 
 notFound:
-    title:
-        other: غير موجود
+  title:
+    other: غير موجود
 
-    subtitle:
-        other: تعذر العثور على الصفحة المطلوبة.
+  subtitle:
+    other: تعذر العثور على الصفحة المطلوبة.
 
 widget:
-    archives:
-        title:
-            other: الارشيفات
+  archives:
+    title:
+      other: الارشيفات
 
-        more:
-            other: اكثر
+    more:
+      other: اكثر
 
-    tagCloud:
-        title:
-            other: وسوم
+  tagCloud:
+    title:
+      other: وسوم
 
 search:
-    title:
-        other: بحث
+  title:
+    other: بحث
 
-    placeholder:
-        other: اكتب...
+  placeholder:
+    other: اكتب...
 
-    resultTitle:
-        other: "#PAGES_COUNT نتيجة (#TIME_SECONDS ثواني)"
+  resultTitle:
+    other: "#PAGES_COUNT نتيجة (#TIME_SECONDS ثواني)"
 
 footer:
-    builtWith:
-        other: "مبني بستخدام {{ .Generator }}"
-        
-    designedBy:
-        other:  "قالب {{ .Theme }} مصمم من {{ .DesignedBy }}"
+  builtWith:
+    other: "مبني بستخدام {{ .Generator }}"
+
+  designedBy:
+    other: "قالب {{ .Theme }} مصمم من {{ .DesignedBy }}"

@@ -1,73 +1,77 @@
+form:
+  submit:
+    other: Enviar
+
 toggleMenu:
-    other: Toggle Menu
+  other: Toggle Menu
 
 darkMode:
-    other: Mode fosc
+  other: Mode fosc
 
 list:
-    page:
-        one: "{{ .Count }} pàgina"
-        other: "{{ .Count }} pàgines"
+  page:
+    one: "{{ .Count }} pàgina"
+    other: "{{ .Count }} pàgines"
 
-    section:
-        other: Secció
+  section:
+    other: Secció
 
-    subsection:
-        one: Subsecció
-        other: Subseccions
+  subsection:
+    one: Subsecció
+    other: Subseccions
 
 article:
-    back:
-        other: Tornar
+  back:
+    other: Tornar
 
-    tableOfContents:
-        other: Taula de contingut
+  tableOfContents:
+    other: Taula de contingut
 
-    relatedContents:
-        other: Continguts relacionats
+  relatedContents:
+    other: Continguts relacionats
 
-    lastUpdatedOn:
-        other: Última vegada actualitzat
+  lastUpdatedOn:
+    other: Última vegada actualitzat
 
-    readingTime:
-        one: "{{ .Count }} minut a llegir"
-        other: "{{ .Count }} minuts a llegir"
+  readingTime:
+    one: "{{ .Count }} minut a llegir"
+    other: "{{ .Count }} minuts a llegir"
 
 notFound:
-    title:
-        other: No Trobat
+  title:
+    other: No Trobat
 
-    subtitle:
-        other: Aquesta pàgina no existeix
+  subtitle:
+    other: Aquesta pàgina no existeix
 
 widget:
-    archives:
-        title:
-            other: Arxiu
+  archives:
+    title:
+      other: Arxiu
 
-        more:
-            other: Més
+    more:
+      other: Més
 
-    tagCloud:
-        title:
-            other: Etiquetes
-    categoriesCloud:
-        title:
-            other: Categories
+  tagCloud:
+    title:
+      other: Etiquetes
+  categoriesCloud:
+    title:
+      other: Categories
 
 search:
-    title:
-        other: Cerca
+  title:
+    other: Cerca
 
-    placeholder:
-        other: Tecleja alguna cosa...
+  placeholder:
+    other: Tecleja alguna cosa...
 
-    resultTitle:
-        other: "#PAGES_COUNT pàgines en (#TIME_SECONDS segons)"
+  resultTitle:
+    other: "#PAGES_COUNT pàgines en (#TIME_SECONDS segons)"
 
 footer:
-    builtWith:
-        other: Creat amb {{ .Generator }}
+  builtWith:
+    other: Creat amb {{ .Generator }}
 
-    designedBy:
-        other: Tema {{ .Theme }} dissenyat per {{ .DesignedBy }}
+  designedBy:
+    other: Tema {{ .Theme }} dissenyat per {{ .DesignedBy }}

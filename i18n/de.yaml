@@ -1,70 +1,74 @@
+form:
+  submit:
+    other: Einreichen
+
 toggleMenu:
-    other: Menü umschalten
+  other: Menü umschalten
 
 darkMode:
-    other: Dunkler Modus
+  other: Dunkler Modus
 
 list:
-    page:
-        one: "{{ .Count }} Seite"
-        other: "{{ .Count }} Seiten"
+  page:
+    one: "{{ .Count }} Seite"
+    other: "{{ .Count }} Seiten"
 
-    section:
-        other: Abschnitt
+  section:
+    other: Abschnitt
 
-    subsection:
-        one: Unterabschnitt
-        other: Unterabschnitte
+  subsection:
+    one: Unterabschnitt
+    other: Unterabschnitte
 
 article:
-    back:
-        other: Zurück
+  back:
+    other: Zurück
 
-    tableOfContents:
-        other: Inhaltsverzeichnis
+  tableOfContents:
+    other: Inhaltsverzeichnis
 
-    relatedContents:
-        other: Verwandte Inhalte
+  relatedContents:
+    other: Verwandte Inhalte
 
-    lastUpdatedOn:
-        other: Zuletzt aktualisiert am
+  lastUpdatedOn:
+    other: Zuletzt aktualisiert am
 
-    readingTime:
-        one: "{{ .Count }} Minute Lesezeit"
-        other: "{{ .Count }} Minuten Lesezeit"
+  readingTime:
+    one: "{{ .Count }} Minute Lesezeit"
+    other: "{{ .Count }} Minuten Lesezeit"
 
 notFound:
-    title:
-        other: Seite nicht gefunden
+  title:
+    other: Seite nicht gefunden
 
-    subtitle:
-        other: Diese Seite existiert nicht
+  subtitle:
+    other: Diese Seite existiert nicht
 
 widget:
-    archives:
-        title:
-            other: Archiv
+  archives:
+    title:
+      other: Archiv
 
-        more:
-            other: Weitere
+    more:
+      other: Weitere
 
-    tagCloud:
-        title:
-            other: Schlagwörter
+  tagCloud:
+    title:
+      other: Schlagwörter
 
 search:
-    title:
-        other: Suche
+  title:
+    other: Suche
 
-    placeholder:
-        other: Etwas tippen...
+  placeholder:
+    other: Etwas tippen...
 
-    resultTitle:
-        other: "#PAGES_COUNT Seiten (#TIME_SECONDS Sekunden)"
+  resultTitle:
+    other: "#PAGES_COUNT Seiten (#TIME_SECONDS Sekunden)"
 
 footer:
-    builtWith:
-        other: Erstellt mit {{ .Generator }}
+  builtWith:
+    other: Erstellt mit {{ .Generator }}
 
-    designedBy:
-        other: Theme {{ .Theme }} gestaltet von {{ .DesignedBy }}
+  designedBy:
+    other: Theme {{ .Theme }} gestaltet von {{ .DesignedBy }}
