@@ -12,8 +12,3 @@ social:
     url: "https://github.com/frawleyskid/nothingradical.blog"
     params:
       icon: "brand-github"
-  - identifier: "rss"
-    name: "RSS"
-    url: "/feed"
-    params:
-      icon: "rss"
