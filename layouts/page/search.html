@@ -1,0 +1,39 @@
+{{ define "body-class" }}template-search{{ end }}
+{{ define "head" }}
+  {{- with .OutputFormats.Get "json" -}}
+    <link rel="preload" href="{{ .Permalink }}" as="fetch" crossorigin="anonymous" />
+  {{- end -}}
+{{ end }}
+{{ define "main" }}
+  <form
+    action="{{ .Permalink }}"
+    class="search-form"
+    role="search"
+    {{ with .OutputFormats.Get "json" -}}data-json="{{ .Permalink }}"{{- end }}
+  >
+    <label for="search-input">{{ T "search.title" }}</label>
+    <input
+      id="search-input"
+      type="search"
+      name="keyword"
+      placeholder="{{ T `search.placeholder` }}"
+      aria-autocomplete="list"
+      aria-controls="search-results"
+    />
+
+    <button aria-label="{{ T "form.submit" }}">
+      {{ partial "helper/icon" "search" }}
+    </button>
+  </form>
+
+  <h3 class="search-result--title section-title"></h3>
+  <div id="search-results" class="search-result--list article-list--compact"></div>
+
+<script>
+    window.searchResultTitleTemplate = "{{ T `search.resultTitle` }}"
+</script> {{- $opts := dict "minify" hugo.IsProduction "JSXFactory" "createElement" -}}
+  {{- $searchScript := resources.Get "ts/search.tsx" | js.Build $opts -}}
+  <script type="text/javascript" src="{{ $searchScript.RelPermalink }}" defer></script>
+
+  {{ partialCached "footer/footer" . }}
+{{ end }}
