@@ -3,6 +3,7 @@ languageCode = "en-us"
 paginate = 5
 title = "Nothing Radical"
 copyright = "© Frawley CC BY-NC-ND 4.0"
+enableRobotsTXT = true
 
 [author]
 name = "Frawley"
