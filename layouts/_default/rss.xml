@@ -41,6 +41,7 @@
       {{ else -}}
       <guid>{{ .Permalink }}</guid>
       {{ end -}}
+      <comments>{{ .Permalink }}#hyvor-talk-view</comments>
       <description>
         {{ $image := partial "helper/image" (dict "Context" . "Type" "rss") -}}
         {{- if $image.exists -}}
