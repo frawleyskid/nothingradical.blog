@@ -12,3 +12,8 @@ social:
     url: "https://github.com/frawleyskid/nothingradical.blog"
     params:
       icon: "brand-github"
+  - identifier: "subscribe"
+    name: "Subscribe"
+    url: "https://follow.it/nothing-radical?action=followPub"
+    params:
+      icon: "rss"
