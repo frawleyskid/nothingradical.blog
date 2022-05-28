@@ -3,12 +3,7 @@
   {{- $pctx = .Site -}}
 {{- end -}}
 
-{{- $pages := slice -}}
-{{- if or $.IsHome $.IsSection -}}
-    {{- $pages = $pctx.RegularPages -}}
-{{- else -}}
-    {{- $pages = $pctx.Pages -}}
-{{- end -}}
+{{- $pages := where $pctx.RegularPages "Section" "posts" -}}
 
 {{- $pages := where $pages "Params.hidden" "!=" true -}}
 {{- $limit := .Site.Config.Services.RSS.Limit -}}
