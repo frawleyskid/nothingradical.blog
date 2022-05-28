@@ -42,6 +42,9 @@
       <guid>{{ .Permalink }}</guid>
       {{ end -}}
       <comments>{{ .Permalink }}#hyvor-talk-view</comments>
+      {{ range .Params.categories -}}
+      <category>{{ (printf "/categories/%s" . | $.Site.GetPage).Title }}</category>
+      {{ end -}}
       <description>
         {{ $image := partial "helper/image" (dict "Context" . "Type" "rss") -}}
         {{- if $image.exists -}}
