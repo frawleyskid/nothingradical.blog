@@ -21,6 +21,7 @@ sidebar:
     enabled: true
     local: false
     src: "/images/logo.webp"
+    alt: "A rainbow infinity symbol"
 
 article:
   math: false
