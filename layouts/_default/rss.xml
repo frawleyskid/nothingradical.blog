@@ -11,16 +11,20 @@
     {{- $pages = $pages | first $limit -}}
 {{- end -}}
 
-{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+{{- $title := .Site.Title -}}
+{{- if ne .Title .Site.Title -}}
+  {{- with .Title }}{{ $title = printf "%s on %s" . $.Site.Title }}{{ end -}}
+{{- end -}}
+
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <title>{{ $title }}</title>
     <link>{{ .Permalink }}</link>
     <description>Recent posts {{ if ne .Title .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}from {{ .Site.Title }}</description>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <image>
       <url>{{ absURL "/images/logo.png" }}</url>
-      <title>{{ .Site.Params.sidebar.avatar.alt }}</title>
+      <title>{{ $title }}</title>
       <link>{{ absURL "/" }}</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
