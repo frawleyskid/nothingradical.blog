@@ -13,6 +13,9 @@ outputs:
   home: ["HTML", "RSS", "HEADERS"]
 
 outputFormats:
+  RSS:
+    mediaType: "application/rss+xml"
+    baseName: "feed"
   HEADERS:
     mediaType: "text/netlify"
     baseName: "_headers"
@@ -21,5 +24,6 @@ outputFormats:
 
 mediaTypes:
   text/netlify:
-    suffixes: [""]
-    delimiter: ""
+    suffixes: []
+  application/rss+xml:
+    suffixes: []
