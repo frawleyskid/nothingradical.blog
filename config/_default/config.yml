@@ -19,7 +19,7 @@ outputs:
 outputFormats:
   RSS:
     mediaType: "application/rss+xml"
-    baseName: "rss"
+    baseName: "feed"
   REDIRECTS:
     mediaType: "text/netlify"
     baseName: "_redirects"
