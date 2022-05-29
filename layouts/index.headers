@@ -8,11 +8,11 @@
     Cache-Control: public, max-age=31536000
     Access-Control-Allow-Origin: *
 
-/feed
+/feed.xml
     Content-Type: application/rss+xml
 
-/tag/*/feed
+/tag/*/feed.xml
     Content-Type: application/rss+xml
 
-/category/*/feed
+/category/*/feed.xml
     Content-Type: application/rss+xml
