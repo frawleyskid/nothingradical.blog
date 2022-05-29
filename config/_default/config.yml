@@ -5,18 +5,26 @@ title: "Nothing Radical"
 copyright: "© 2020-2022 Frawley CC BY-NC-ND 4.0"
 enableRobotsTXT: true
 
+ignoreErrors: "error-output-taxonomy"
+
 author:
   name: "Frawley"
   email: "frawleyskid@gmail.com"
 
 outputs:
-  home: ["HTML", "RSS", "HEADERS"]
+  home: ["HTML", "RSS", "REDIRECTS", "HEADERS"]
   section: ["HTML"]
+  taxonomy: ["HTML"]
 
 outputFormats:
   RSS:
     mediaType: "application/rss+xml"
-    baseName: "feed"
+    baseName: "rss"
+  REDIRECTS:
+    mediaType: "text/netlify"
+    baseName: "_redirects"
+    isPlainText: true
+    notAlternative: true
   HEADERS:
     mediaType: "text/netlify"
     baseName: "_headers"
@@ -25,6 +33,4 @@ outputFormats:
 
 mediaTypes:
   text/netlify:
-    suffixes: []
-  application/rss+xml:
     suffixes: []

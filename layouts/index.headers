@@ -11,13 +11,7 @@
 /feed
     Content-Type: application/rss+xml
 
-/tags/feed
-    Content-Type: application/rss+xml
-
 /tag/*/feed
-    Content-Type: application/rss+xml
-
-/categories/feed
     Content-Type: application/rss+xml
 
 /category/*/feed

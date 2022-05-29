@@ -1,0 +1,3 @@
+/rss.xml /feed 200
+/tag/*/rss.xml /tag/:splat/feed 200
+/category/*/rss.xml /category/:splat/feed 200
