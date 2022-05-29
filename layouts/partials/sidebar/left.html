@@ -22,7 +22,7 @@
                 height="300"
                 class="site-logo"
                 loading="lazy"
-                alt="Avatar"
+                alt="{{ .alt }}"
               />
             {{ else }}
               {{ $avatar := resources.Get (.src) }}
