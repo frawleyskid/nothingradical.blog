@@ -3,8 +3,7 @@
 This is my personal blog. This is a [Hugo](https://gohugo.io/) static site
 using the [Stack](https://github.com/CaiJimmy/hugo-theme-stack) theme.
 
-Commenting is provided by [Hyvor Talk](https://talk.hyvor.com/) and email
-subscriptions are provided by [follow.it](https://follow.it/).
+Commenting is provided by [Hyvor Talk](https://talk.hyvor.com/).
 
 This site uses a Netlify-style `_headers` file to configure response headers
 (including the CSP) for the hosting provider.
