@@ -2,7 +2,7 @@ baseurl: "https://nothingradical.blog"
 languageCode: "en-us"
 paginate: 5
 title: "Nothing Radical"
-copyright: "© 2020-2022 Frawley CC BY-NC-ND 4.0"
+copyright: "© 2020–2022 Frawley CC BY-NC-ND 4.0"
 enableRobotsTXT: true
 
 ignoreErrors: "error-output-taxonomy"
