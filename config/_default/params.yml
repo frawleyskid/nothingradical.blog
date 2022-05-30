@@ -4,6 +4,7 @@ favicon: "/images/logo.webp"
 
 footer:
   since: 2020
+  attribution: "Frawley"
 
 comments:
   enabled: true
