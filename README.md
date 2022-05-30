@@ -18,5 +18,5 @@ Copyright © 2022 Frawley
 
 The source code is licensed under GNU GPLv3.
 
-The content of the blog is licensed under [CC BY-NC-ND
-4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/).
+The content of the blog is licensed
+under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
