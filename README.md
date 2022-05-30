@@ -5,8 +5,12 @@ using the [Stack](https://github.com/CaiJimmy/hugo-theme-stack) theme.
 
 Commenting is provided by [Hyvor Talk](https://talk.hyvor.com/).
 
-This site uses a Netlify-style `_headers` file to configure response headers
-(including the CSP) for the hosting provider.
+This site uses a Netlify-style `_headers` file and `_redirects` file to
+configure response headers (including the CSP) and redirect rules for the
+hosting provider.
+
+The infrastructure config for the site can be found at
+[acearchive/infra](https://github.com/acearchive/infra).
 
 ## Copyright
 
