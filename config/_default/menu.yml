@@ -1,11 +1,4 @@
-main:
-  - identifier: "home"
-    name: "Home"
-    url: "/"
-    weight: 10
-    params:
-      icon: "home"
-
+main: []
 social:
   - identifier: "github"
     name: "GitHub"
