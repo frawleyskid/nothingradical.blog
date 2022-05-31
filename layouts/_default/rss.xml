@@ -51,7 +51,7 @@
       {{ else -}}
       <guid>{{ .Permalink }}</guid>
       {{ end -}}
-      <comments>{{ .Permalink }}#hyvor-talk-view</comments>
+      <comments>{{ .Permalink }}#comments</comments>
       {{ range .Params.categories -}}
       <category>{{ (printf "/categories/%s" . | $.Site.GetPage).Title }}</category>
       {{ end -}}
