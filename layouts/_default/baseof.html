@@ -25,7 +25,10 @@
         {{ partial "sidebar/left.html" . }}
       {{- end -}}
       <div class="main full-width">
-        {{- block "main" . }}{{- end }}
+        <main class="d-contents">
+          {{ block "main" . }}{{ end }}
+        </main>
+        {{ partial "footer/footer.html" . }}
       </div>
       {{- block "right-sidebar" . -}}{{ end }}
     </div>
