@@ -4,6 +4,7 @@ paginate: 5
 title: "Nothing Radical"
 copyright: "© 2020–2022 Frawley CC BY-NC-ND 4.0"
 enableRobotsTXT: true
+disableAliases: true
 
 ignoreErrors: "error-output-taxonomy"
 
