@@ -27,7 +27,7 @@
     <description>Recent posts {{ if ne .Title .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}from {{ .Site.Title }}</description>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <image>
-      <url>{{ absURL .Site.Params.rssImage }}</url>
+      <url>{{ absURL .Site.Params.rss.image }}</url>
       <title>{{ $title }}</title>
       <link>{{ absURL "/" }}</link>
     </image>
@@ -42,7 +42,7 @@
     {{ end -}}
     {{ range $pages }}
     {{- $content := safeHTML (.Summary | html) -}}
-    {{- if .Site.Params.rssFullContent -}}
+    {{- if .Site.Params.rss.fullContent -}}
     {{- $content = safeHTML (.Content | html) -}}
     {{- end -}}
     <item>

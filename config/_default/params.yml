@@ -1,7 +1,9 @@
 mainSections: ["posts"]
-rssFullContent: true
-rssImage: "/images/logo-transparent.png"
 favicon: "/images/logo-transparent.webp"
+
+rss:
+  fullContent: true
+  image: "/images/logo-transparent.png"
 
 footer:
   since: 2020

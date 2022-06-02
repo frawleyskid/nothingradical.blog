@@ -1,3 +1,6 @@
+// These overrides are needed so we can add semantic HTML tags to the upstream
+// layouts for accessibility without breaking the styling.
+
 .main {
   min-width: 0;
   max-width: 100%;
@@ -14,6 +17,11 @@
 .d-contents {
   display: contents;
 }
+
+// These overrides are needed to make the RSS XSLT stylesheet render properly.
+// We can't link to the category pages from the RSS feed, so we shouldn't use an
+// <a> for the category names, but the original style sheets assume the
+// categories will be contained in an <a>.
 
 .article-list article {
   @for $i from 1 through length($defaultTagBackgrounds) {
@@ -32,5 +40,53 @@
     border-radius: var(--tag-border-radius);
     display: inline-block;
     font-size: 1.4rem;
+  }
+}
+
+// These styles are for the RSS XSLT stylesheet.
+
+.feed-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  svg {
+    stroke: var(--body-text-color);
+  }
+
+  > svg {
+    width: 80px;
+    height: 80px;
+    display: none;
+  }
+
+  @include respond(sm) {
+    > svg {
+      display: inline;
+    }
+  }
+
+  .feed-title {
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: var(--accent-color);
+    }
+
+    > svg {
+      width: 50px;
+      height: 50px;
+      display: inline;
+    }
+
+    @include respond(sm) {
+      > svg {
+        display: none;
+      }
+    }
+  }
+
+  .feed-text {
+    color: var(--body-text-color);
   }
 }

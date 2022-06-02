@@ -14,6 +14,21 @@
         <div class="container main-container flex on-phone--column compact">
           <div class="main full-width">
             <main class="d-contents">
+              <div class="feed-header">
+                {{ partial "helper/icon" "rss" }}
+                <div>
+                  <div class="feed-title">
+                    {{ partial "helper/icon" "rss" }}
+                    <h1><cite>{{ .Site.Title }}</cite> RSS Feed</h1>
+                  </div>
+                  <div class="feed-text">
+                    <p>
+                      This is an RSS feed. You can paste this URL into any RSS
+                      reader to get new posts from <cite>{{ .Site.Title }}</cite>.
+                    </p>
+                  </div>
+                </div>
+              </div>
               <section class="article-list">
                 <xsl:for-each select="/rss/channel/item">
                   <article>
