@@ -47,7 +47,13 @@ widgets:
 opengraph:
   twitter:
     site: ""
-    card: "summary_large_image"
+    card: "summary"
+
+defaultImage:
+  opengraph:
+    enabled: true
+    local: false
+    src: "/images/logo.webp"
 
 colorScheme:
   toggle: true
