@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title><xsl:value-of select="/rss/channel/title"/> RSS Feed</title>
         {{- $css := resources.Get "scss/style.scss" | resources.ToCSS | minify | resources.Fingerprint "sha256" }}
-        <link rel="stylesheet" href="{{ $css.Permalink }}"/>
+        <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous"/>
       </head>
       <body>
         <div class="container main-container flex on-phone--column compact">
