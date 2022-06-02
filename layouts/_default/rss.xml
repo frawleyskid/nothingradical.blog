@@ -16,7 +16,7 @@
   {{- with .Title }}{{ $title = printf "%s on %s" . $.Site.Title }}{{ end -}}
 {{- end -}}
 
-{{- $xsl := resources.Get "xsl/rss.xsl" | resources.ExecuteAsTemplate "xsl/rss.xsl" . -}}
+{{- $xsl := resources.Get "xsl/rss.xsl" | resources.ExecuteAsTemplate "xsl/rss.xsl" . | fingerprint "sha256" -}}
 
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
 {{ printf "<?xml-stylesheet type=\"text/xsl\" href=\"%s\" media=\"screen\"?>" $xsl.RelPermalink | safeHTML }}
