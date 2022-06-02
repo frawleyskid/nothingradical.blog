@@ -1,6 +1,7 @@
 mainSections: ["posts"]
 rssFullContent: true
-favicon: "/images/logo.webp"
+rssImage: "/images/logo-transparent.png"
+favicon: "/images/logo-transparent.webp"
 
 footer:
   since: 2020
@@ -21,7 +22,7 @@ sidebar:
   avatar:
     enabled: true
     local: false
-    src: "/images/logo.webp"
+    src: "/images/logo-transparent.webp"
     alt: "A rainbow infinity symbol"
 
 article:
@@ -53,7 +54,7 @@ defaultImage:
   opengraph:
     enabled: true
     local: false
-    src: "/images/logo.webp"
+    src: "/images/logo-transparent-padded.webp"
 
 colorScheme:
   toggle: true

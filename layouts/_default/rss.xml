@@ -23,7 +23,7 @@
     <description>Recent posts {{ if ne .Title .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}from {{ .Site.Title }}</description>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <image>
-      <url>{{ absURL "/images/logo.png" }}</url>
+      <url>{{ absURL .Site.Params.rssImage }}</url>
       <title>{{ $title }}</title>
       <link>{{ absURL "/" }}</link>
     </image>
