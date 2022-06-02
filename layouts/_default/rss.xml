@@ -13,14 +13,14 @@
 
 {{- $title := .Site.Title -}}
 {{- if ne .Title .Site.Title -}}
-  {{- with .Title }}{{ $title = printf "%s on %s" . $.Site.Title }}{{ end -}}
+  {{- with .Title }}{{ $title = printf "%s - %s" $.Site.Title . }}{{ end -}}
 {{- end -}}
 
 {{- $xsl := resources.Get "xsl/rss.xsl" | resources.ExecuteAsTemplate "xsl/rss.xsl" . | fingerprint "sha256" -}}
 
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
 {{ printf "<?xml-stylesheet type=\"text/xsl\" href=\"%s\" media=\"screen\"?>" $xsl.RelPermalink | safeHTML }}
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{{ $title }}</title>
     <link>{{ .Permalink }}</link>
@@ -41,10 +41,6 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end -}}
     {{ range $pages }}
-    {{- $content := safeHTML (.Summary | html) -}}
-    {{- if .Site.Params.rss.fullContent -}}
-    {{- $content = safeHTML (.Content | html) -}}
-    {{- end -}}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
@@ -60,14 +56,16 @@
       <category>{{ (printf "/categories/%s" . | $.Site.GetPage).Title }}</category>
       {{ end -}}
       <description>
+        {{ .Params.description }}
+      </description>
+      {{ if .Site.Params.rss.fullContent -}}
+      <content:encoded>
         {{ $image := partial "helper/image" (dict "Context" . "Type" "rss") -}}
         {{- if $image.exists -}}
         {{ "<" | html }}img src="{{ $image.permalink | absURL }}" alt="Featured image of post {{ .Title }}" {{ "/>" | html}}
-        {{- end -}}{{ $content }}
-      </description>
-      <dc:description>
-        {{ safeHTML (.Params.description | html) }}
-      </dc:description>
+        {{- end -}}{{ safeHTML (.Content | html) }}
+      </content:encoded>
+      {{- end }}
     </item>
     {{ end }}
   </channel>

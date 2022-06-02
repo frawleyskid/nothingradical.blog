@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
   <xsl:template match="/">
     <html xmlns="http://www.w3.org/1999/xhtml" lang="{{ .Site.LanguageCode }}" dir="{{ default "ltr" .Language.LanguageDirection }}">
       <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title><xsl:value-of select="/rss/channel/title"/> RSS Feed</title>
+        <title><xsl:value-of select="/rss/channel/title"/></title>
         {{- $css := resources.Get "scss/style.scss" | resources.ToCSS | minify | resources.Fingerprint "sha256" }}
         <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous"/>
       </head>
@@ -48,7 +48,7 @@
                               <xsl:value-of select="title"/>
                             </a>
                           </h2>
-                          <h3 class="article-subtitle"><xsl:value-of select="dc:description"/></h3>
+                          <h3 class="article-subtitle"><xsl:value-of select="description"/></h3>
                         </div>
                         <footer class="article-time">
                           <div>
