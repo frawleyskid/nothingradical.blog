@@ -9,10 +9,10 @@
     Access-Control-Allow-Origin: *
 
 /feed.xml
-    Content-Type: application/rss+xml
+    Content-Type: application/rss+xml; charset=UTF-8
 
 /tag/*/feed.xml
-    Content-Type: application/rss+xml
+    Content-Type: application/rss+xml; charset=UTF-8
 
 /category/*/feed.xml
-    Content-Type: application/rss+xml
+    Content-Type: application/rss+xml; charset=UTF-8
