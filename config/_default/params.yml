@@ -58,3 +58,14 @@ imageProcessing:
     enabled: true
   content:
     enabled: true
+
+redirects:
+  - from: "/feed"
+    to: "/feed.xml"
+    status: 301
+  - from: "/tag/*/feed"
+    to: "/tag/:splat/feed.xml"
+    status: 301
+  - from: "/category/*/feed"
+    to: "/category/:splat/feed.xml"
+    status: 301
