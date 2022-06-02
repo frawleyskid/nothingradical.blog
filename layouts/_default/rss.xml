@@ -16,7 +16,11 @@
   {{- with .Title }}{{ $title = printf "%s on %s" . $.Site.Title }}{{ end -}}
 {{- end -}}
 
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+{{- $xsl := resources.Get "xsl/rss.xsl" | resources.ExecuteAsTemplate "xsl/rss.xsl" . -}}
+
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
+{{ printf "<?xml-stylesheet type=\"text/xsl\" href=\"%s\" media=\"screen\"?>" $xsl.RelPermalink | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>{{ $title }}</title>
     <link>{{ .Permalink }}</link>
@@ -61,6 +65,9 @@
         {{ "<" | html }}img src="{{ $image.permalink | absURL }}" alt="Featured image of post {{ .Title }}" {{ "/>" | html}}
         {{- end -}}{{ $content }}
       </description>
+      <dc:description>
+        {{ safeHTML (.Params.description | html) }}
+      </dc:description>
     </item>
     {{ end }}
   </channel>

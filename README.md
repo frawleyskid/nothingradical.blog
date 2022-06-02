@@ -7,7 +7,11 @@ Commenting is provided by [Hyvor Talk](https://talk.hyvor.com/).
 
 This site uses a Netlify-style `_headers` file and `_redirects` file to
 configure response headers (including the CSP) and redirect rules for the
-hosting provider.
+hosting provider. Hugo aliases are converted to redirect rules.
+
+This site generates an RSS feed for all posts and for each category and tag.
+The RSS feeds use an XSLT stylesheet to render as HTML in the browser, even
+though they are actually `application/rss+xml` documents.
 
 The infrastructure config for the site can be found at
 [acearchive/infra](https://github.com/acearchive/infra).
