@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
-  <xsl:template match="/">
+  <xsl:template match="/rss/channel">
     <html xmlns="http://www.w3.org/1999/xhtml" lang="{{ .Site.LanguageCode }}" dir="{{ default "ltr" .Language.LanguageDirection }}">
       <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title><xsl:value-of select="/rss/channel/title"/></title>
+        <meta name="description">
+          <xsl:attribute name="content">
+            <xsl:value-of select="description"/>
+          </xsl:attribute>
+        </meta>
+        <title><xsl:value-of select="title"/> RSS Feed</title>
+        <link rel="canonical">
+          <xsl:attribute name="href">
+            <xsl:value-of select="atom:link/@href"/>
+          </xsl:attribute>
+        </link>
+        <link rel="alternate" type="application/rss+xml" href="."/>
+        <link rel="shortcut icon" href="/images/logo-transparent.webp"/>
         {{- $css := resources.Get "scss/style.scss" | resources.ToCSS | minify | resources.Fingerprint "sha256" }}
         <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous"/>
       </head>
@@ -30,7 +42,7 @@
                 </div>
               </div>
               <section class="article-list">
-                <xsl:for-each select="/rss/channel/item">
+                <xsl:for-each select="item">
                   <article>
                     <header class="article-header">
                       <div class="article-details">
@@ -41,7 +53,7 @@
                         </header>
                         <div class="article-title-wrapper">
                           <h2 class="article-title">
-                            <a href="">
+                            <a>
                               <xsl:attribute name="href">
                                 <xsl:value-of select="link"/>
                               </xsl:attribute>
