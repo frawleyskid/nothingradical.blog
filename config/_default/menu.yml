@@ -5,8 +5,10 @@ social:
     url: "https://github.com/frawleyskid/nothingradical.blog"
     params:
       icon: "brand-github"
-  - identifier: "rss"
-    name: "RSS"
+    weight: 10
+  - identifier: "atom"
+    name: "Feed"
     url: "/feed.xml"
     params:
       icon: "rss"
+    weight: 20

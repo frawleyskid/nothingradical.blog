@@ -1,9 +1,15 @@
 mainSections: ["posts"]
 favicon: "/images/logo-transparent.webp"
 
-rss:
+author:
+  name: "Frawley"
+  email: "frawleyskid@gmail.com"
+  url: "https://nothingradical.blog/about/"
+
+feed:
   fullContent: true
-  image: "/images/logo-transparent.png"
+  icon: "/images/logo-transparent.webp"
+  logo: "/images/logo-card.webp"
 
 footer:
   since: 2020

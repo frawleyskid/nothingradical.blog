@@ -6,20 +6,15 @@ copyright: "© 2020–2022 Frawley CC BY-NC-ND 4.0"
 enableRobotsTXT: true
 disableAliases: true
 
-ignoreErrors: "error-output-taxonomy"
-
-author:
-  name: "Frawley"
-  email: "frawleyskid@gmail.com"
-
 outputs:
-  home: ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+  home: ["HTML", "ATOM", "REDIRECTS", "HEADERS"]
   section: ["HTML"]
   taxonomy: ["HTML"]
+  term: ["HTML"]
 
 outputFormats:
-  RSS:
-    mediaType: "application/rss+xml"
+  ATOM:
+    mediaType: "application/atom+xml"
     baseName: "feed"
   REDIRECTS:
     mediaType: "text/netlify"
@@ -35,3 +30,5 @@ outputFormats:
 mediaTypes:
   text/netlify:
     suffixes: []
+  application/atom+xml:
+    suffixes: ["xml"]
