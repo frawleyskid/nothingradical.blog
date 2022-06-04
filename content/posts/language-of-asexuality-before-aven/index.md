@@ -2,7 +2,7 @@
 title: "The Language of Asexuality Before AVEN"
 slug: "the-language-of-asexuality-before-aven"
 id: "fb54f945-7842-480b-90c7-b8b6653a6632"
-date: "2021-05-04"
+date: "2021-05-04T23:05:00Z"
 lastmod: "2022-05-26T01:28:00Z"
 description: >
     It's hard to understate how pivotal the Asexual Visibility and Education

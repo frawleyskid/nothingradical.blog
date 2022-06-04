@@ -2,7 +2,7 @@
 title: "What is Relationship Anarchy?"
 slug: "what-is-relationship-anarchy"
 id: "41376d5a-150d-46a7-adf7-fca9a9e029b6"
-date: "2020-06-12"
+date: "2020-06-14T18:43:00Z"
 description: >
     This is a brief synopsis of what relationship anarchy is as I understand
     and practice it.

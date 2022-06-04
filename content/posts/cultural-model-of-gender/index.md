@@ -2,7 +2,7 @@
 title: "The Cultural Model of Gender"
 slug: "the-cultural-model-of-gender"
 id: "79adf5c6-ca0b-47e6-a33e-4b583b654fdb"
-date: "2020-10-07"
+date: "2020-10-07T18:58:00Z"
 description: >
     Trans folks talk a lot about how we conceptualize gender, but I don't think
     enough attention is paid to how gender is influenced by the culture we're

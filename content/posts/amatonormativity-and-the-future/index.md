@@ -2,7 +2,7 @@
 title: "Amatonormativity and the Future I Never Really Wanted"
 slug: "amatonormativity-and-the-future-i-never-really-wanted"
 id: "0ca84404-755f-4ab5-ba6b-97c07d8e1ef1"
-date: "2021-08-29"
+date: "2021-08-30T01:56:00Z"
 description: >
     The worst damage amatonormativity inflicted on my life happened before I
     came to terms with my aro identity. Amatonormativity prescribed a future

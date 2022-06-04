@@ -2,7 +2,7 @@
 title: "When Does a Difference Become a Disorder?"
 slug: "when-does-a-difference-become-a-disorder"
 id: "5608aab0-465e-49ce-8a5b-a00d9b8c5dd9"
-date: "2020-06-14"
+date: "2020-06-14T18:46:00Z"
 description: >
     The common messaging among neurotypical people is that a disorder is an
     abnormality, a disease. Most neurodivergent folks, however, perfer to think

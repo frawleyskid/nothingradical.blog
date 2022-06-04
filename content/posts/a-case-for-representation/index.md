@@ -2,7 +2,7 @@
 title: "A Case for Representation"
 slug: "a-case-for-representation"
 id: "6745ab5c-dd48-11ec-b7a6-17be73a06b78"
-date: "2020-06-10"
+date: "2020-06-10T18:40:00Z"
 description: >
     Most people understand on some surface level that representation is good,
     but most people who aren't part of a marginalized group don't fully

@@ -2,7 +2,7 @@
 title: "White Lies and Approximate Definitions"
 slug: "white-lies-and-approximate-definitions"
 id: "ccbdf3be-8d79-4073-ad16-30cfb003fb25"
-date: "2021-05-11"
+date: "2021-05-11T22:07:00Z"
 description: >
     Sometimes explaining my identity to non-queer folks means giving
     definitions that aren't entirely accurate—little white lies that make

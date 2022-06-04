@@ -2,7 +2,7 @@
 title: "Being an Ambassador to the Queer Hive Mind"
 slug: "being-an-ambassador-to-the-queer-hive-mind"
 id: "a310da24-f586-499b-83f1-5d823aaacde9"
-date: "2021-09-11"
+date: "2021-09-12T00:23:00Z"
 description: >
     When I talk about my identity to someone outside one of my communities, I'm
     implicitly nominating myself as an ambassador to that community. What are

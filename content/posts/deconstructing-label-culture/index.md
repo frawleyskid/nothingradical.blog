@@ -2,7 +2,7 @@
 title: "Deconstructing Label Culture"
 slug: "deconstructing-label-culture"
 id: "26f7c53a-8b72-4b42-81e5-16695643ccf4"
-date: "2020-06-17"
+date: "2020-06-17T21:25:00Z"
 description: >
     There's a lot of discourse both inside and outside of queer communities
     about microlabels. To many non-queer people, they represent an epidemic of

@@ -2,7 +2,7 @@
 title: "Plotting My Queer Identity on the Convergence-Divergence Spectrum"
 slug: "plotting-my-queer-identity-on-the-convergence-divergence-spectrum"
 id: "8d60e612-1268-41c7-87d8-a75bbb570e58"
-date: "2022-01-18"
+date: "2022-01-19T00:50:00Z"
 description: >
     I use Coyote's concept of a convergent-divergent spectrum to describe some
     feelings about my identity I've been trying to piece together for a while.
