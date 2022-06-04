@@ -7,7 +7,7 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
 {{ printf "<?xml-stylesheet type=\"text/xsl\" href=\"%s\" media=\"screen\"?>" $xsl.RelPermalink | safeHTML }}
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>{{ .Site.BaseURL }}</id>
+  <id>{{ absURL "/" }}</id>
   <title>{{ .Site.Title }}</title>
   <updated>{{ dateFormat $dateFormat now.UTC | safeHTML }}</updated>
   <author>
