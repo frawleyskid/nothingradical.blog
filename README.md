@@ -9,9 +9,9 @@ This site uses a Netlify-style `_headers` file and `_redirects` file to
 configure response headers (including the CSP) and redirect rules for the
 hosting provider. Hugo aliases are converted to redirect rules.
 
-This site generates an RSS feed for all posts and for each category and tag.
-The RSS feeds use an XSLT stylesheet to render as HTML in the browser, even
-though they are actually `application/rss+xml` documents.
+This site generates an Atom feed, which uses an XSLT stylesheet to render as
+HTML in the browser, even though it's actually an `application/atom+xml`
+document.
 
 The infrastructure config for the site can be found at
 [acearchive/infra](https://github.com/acearchive/infra).
