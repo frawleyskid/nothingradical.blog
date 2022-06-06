@@ -47,6 +47,10 @@
                       reader to get new posts from <cite>{{ .Site.Title }}</cite>.
                     </p>
                   </div>
+                  <a class="feed-backlink" href="{{ absURL "/" }}">
+                    {{ partial "helper/icon" "arrow-back" }}
+                    <span class="link">Back to {{ .Site.Title }}</span>
+                  </a>
                 </div>
               </div>
               <section class="article-list">
