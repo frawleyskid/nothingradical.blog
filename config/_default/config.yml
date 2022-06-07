@@ -6,6 +6,9 @@ copyright: "© 2020–2022 Frawley CC BY-NC-ND 4.0"
 enableRobotsTXT: true
 disableAliases: true
 
+imaging:
+  quality: 100
+
 outputs:
   home: ["HTML", "ATOM", "REDIRECTS", "HEADERS"]
   section: ["HTML"]

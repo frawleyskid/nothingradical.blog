@@ -1,5 +1,4 @@
 mainSections: ["posts"]
-favicon: "/images/logo-transparent.webp"
 
 author:
   name: "Frawley"
@@ -62,11 +61,15 @@ defaultImage:
   opengraph:
     enabled: true
     local: false
-    src: "/images/logo-transparent-padded.webp"
+    src: "images/logo-transparent-padded.webp"
 
 colorScheme:
   toggle: true
   default: "auto"
+
+themeColors:
+  light: "#f5f5fa" # --body-background
+  dark: "#303030" # --body-background
 
 imageProcessing:
   cover:
