@@ -11,4 +11,5 @@ social:
     url: "/feed.xml"
     params:
       icon: "rss"
+      newTab: false
     weight: 20
