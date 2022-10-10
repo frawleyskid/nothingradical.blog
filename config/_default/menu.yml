@@ -8,7 +8,7 @@ social:
     weight: 10
   - identifier: "atom"
     name: "Feed"
-    url: "/feed.xml"
+    url: "/feed/"
     params:
       icon: "rss"
       newTab: false

@@ -76,3 +76,8 @@ imageProcessing:
     enabled: true
   content:
     enabled: true
+
+redirects:
+  - from: "/feed.xml"
+    to: "/feed/"
+    status: 301
