@@ -32,4 +32,4 @@ archive for preserving asexual history.
 If you want to shoot me a message to make a suggestion, ask a question, leave a
 comment, or get it touch for any other reason, you can email me at:
 
-<frawley@duck.com>
+<frawley@nothingradical.blog>
