@@ -20,7 +20,7 @@ aliases:
     - "the-amatanormativity-in-romance-coded-language"
 author:
     name: "Frawley"
-    email: "frawleyskid@gmail.com"
+    email: "frawley@duck.com"
 ---
 
 Much of the language we use to talk about relationships is steeped in

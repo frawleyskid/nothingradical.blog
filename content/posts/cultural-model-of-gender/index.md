@@ -20,7 +20,7 @@ tags:
     - "transgender"
 author:
     name: "Frawley"
-    email: "frawleyskid@gmail.com"
+    email: "frawley@duck.com"
 ---
 
 Within the transgender community, there are different conceptual models we use

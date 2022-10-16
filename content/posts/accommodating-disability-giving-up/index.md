@@ -20,7 +20,7 @@ tags:
     - "neurodiversity"
 author:
     name: "Frawley"
-    email: "frawleyskid@gmail.com"
+    email: "frawley@duck.com"
 ---
 
 I’m autistic, and I consider my autism to be a disability. Not all autistic

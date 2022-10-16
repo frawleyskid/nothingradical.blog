@@ -19,7 +19,7 @@ tags:
     - "toxic heteronormativity"
 author:
     name: "Frawley"
-    email: "frawleyskid@gmail.com"
+    email: "frawley@duck.com"
 ---
 
 There's a lot of contempt for cisgender heterosexual (cishet) people in queer

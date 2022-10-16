@@ -17,7 +17,7 @@ tags:
     - "romance"
 author:
     name: "Frawley"
-    email: "frawleyskid@gmail.com"
+    email: "frawley@duck.com"
 ---
 
 Traditionally, we categorize our relationships with labels, usually either as

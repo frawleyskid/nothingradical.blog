@@ -19,7 +19,7 @@ tags:
     - "spectrums"
 author:
     name: "Frawley"
-    email: "frawleyskid@gmail.com"
+    email: "frawley@duck.com"
 ---
 
 While most people are familiar with the most common labels queer people use to

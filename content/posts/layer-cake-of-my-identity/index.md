@@ -21,7 +21,7 @@ tags:
     - "microlabels"
 author:
     name: "Frawley"
-    email: "frawleyskid@gmail.com"
+    email: "frawley@duck.com"
 ---
 
 *This post was written for the [May 2021 Carnival of

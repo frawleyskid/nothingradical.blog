@@ -21,7 +21,7 @@ tags:
     - "satanism"
 author:
     name: "Frawley"
-    email: "frawleyskid@gmail.com"
+    email: "frawley@duck.com"
 ---
 
 *Update (25 May 2022): While I mentioned it in passing, this essay doesn't

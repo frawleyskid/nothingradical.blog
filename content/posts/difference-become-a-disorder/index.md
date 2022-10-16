@@ -19,7 +19,7 @@ tags:
     - "mental health"
 author:
     name: "Frawley"
-    email: "frawleyskid@gmail.com"
+    email: "frawley@duck.com"
 ---
 
 A common form of hate minority communities face is people pathologizing their

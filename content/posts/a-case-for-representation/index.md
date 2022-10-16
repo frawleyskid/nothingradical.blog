@@ -18,7 +18,7 @@ tags:
     - "visibility"
 author:
     name: "Frawley"
-    email: "frawleyskid@gmail.com"
+    email: "frawley@duck.com"
 ---
 
 Marginalized groups have long campaigned for more equal representation in the

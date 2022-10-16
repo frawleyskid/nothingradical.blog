@@ -17,7 +17,7 @@ tags:
     - "coming out"
 author:
     name: "Frawley"
-    email: "frawleyskid@gmail.com"
+    email: "frawley@duck.com"
 ---
 
 *This post was written for the [August 2021 Carnival of

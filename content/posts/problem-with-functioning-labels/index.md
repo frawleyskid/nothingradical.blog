@@ -20,7 +20,7 @@ tags:
     - "spectrums"
 author:
     name: "Frawley"
-    email: "frawleyskid@gmail.com"
+    email: "frawley@duck.com"
 ---
 
 Autism is a disorder that most people are vaguely familiar with. Unfortunately,

@@ -16,7 +16,7 @@ tags:
     - "spoon theory"
 author:
     name: "Frawley"
-    email: "frawleyskid@gmail.com"
+    email: "frawley@duck.com"
 ---
 
 It's no surprise that living with a chronic illness or disability in the US can
