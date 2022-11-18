@@ -66,6 +66,7 @@
               {{ if eq (default true .Params.newTab) true }}target="_blank"{{ end }}
               {{ with .Name }}title="{{ . }}"{{ end }}
               {{ with .Name }}aria-label="{{ . }}"{{ end }}
+              {{ with .Params.rel }}rel="{{ . }}"{{ end }}
             >
               {{ $icon := default "link" .Params.Icon }}
               {{ with $icon }}

@@ -6,10 +6,17 @@ social:
     params:
       icon: "brand-github"
     weight: 10
+  - identifier: "mastodon"
+    name: "Mastodon"
+    url: "https://mastodon.lol/@frawley"
+    params:
+      icon: "brand-mastodon"
+      rel: "me"
+    weight: 20
   - identifier: "atom"
     name: "Feed"
     url: "/feed/"
     params:
       icon: "rss"
       newTab: false
-    weight: 20
+    weight: 30
