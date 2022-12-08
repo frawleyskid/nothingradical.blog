@@ -279,10 +279,10 @@ you." followed by a list of labels including "asexual."
 
 ![A photo of activists at Barnard College with a sign advocating to "choose
 your own
-label"](https://bafkreigwewroyf4yokdjayboaxhr3nxrqp3543jwxdoda2zvjm3phtlup4.ipfs.dweb.link/?filename=choose-your-label.png)
+label"](https://files.acearchive.lgbt/artifacts/choose-your-label-barnard-college/choose-your-label.png)
 
 *You can find a full transcript of the image and accompanying article
-[here](https://bafybeibcqnvnslchlhxwnifrmljf6sskijatbgh6rpkqnjsnmmfz7oatui.ipfs.dweb.link/).*
+[here](https://files.acearchive.lgbt/artifacts/choose-your-label-barnard-college/choose-your-label-transcript/).*
 
 Myra Johnson wrote [one of the first academic papers about
 asexuality](https://acearchive.lgbt/artifact/johnson-asexual-and-autoerotic-women/)
@@ -336,10 +336,10 @@ Diversity*](https://acearchive.lgbt/artifact/carroll-toby-an-asexual-person/).
 
 ![An excerpt from the book *Sexuality Now: Embracing Diversity* describing Jim
 as "an asexual person" to refer to xirs
-anatomy](https://bafkreidf5i5jflyx6e4lnk7y2ebrv6yz2ky62rh6vkmiptqvnphgsoxzly.ipfs.dweb.link/?filename=toby-an-asexual-person.png)
+anatomy](https://files.acearchive.lgbt/artifacts/carroll-toby-an-asexual-person/toby-an-asexual-person.png)
 
 *You can find a full transcript of the article
-[here](https://bafybeibiedyr57dtyyyt6nrzqgayla7sjd4obamuswi27qc3zard7owegy.ipfs.dweb.link/).*
+[here](https://files.acearchive.lgbt/artifacts/carroll-toby-an-asexual-person/toby-an-asexual-person-transcript/).*
 
 In another example of scientific literature which gave credibility to the term
 "asexual", Anthony Bogaert published [a
