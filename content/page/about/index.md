@@ -16,12 +16,16 @@ aliases:
   - "contact"
 ---
 
-Hey, I’m Frawley! I’m a queer and neurodivergent non-binary person, and I go by
+Thanks for stopping by!
+
+I’m Frawley! I’m a queer and neurodivergent non-binary person, and I go by
 they/them pronouns. I use this blog to share thoughts on issues that are
 important to me—mostly queer issues and neurodiversity.
 
-I’m asexual and aromantic, although if you’re queer I might tell you I’m
-actually quoiromantic. I’m also polyamorous and a relationship anarchist.
+I call myself bi, gay, aro, ace, quoiro, and maybe other things depending on
+how I'm feeling. I consider my orientation to be queer, and beyond that the
+labels aren't too important to me. I'm also non-monogamous and a relationship
+anarchist.
 
 As for my neurodivergence, I’m anxious and autistic. Please don’t tell me I
 have “mild” autism—my autism is actually quite spicy.
