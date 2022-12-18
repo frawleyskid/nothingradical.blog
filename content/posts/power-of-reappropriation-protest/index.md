@@ -8,8 +8,7 @@ description: >
     groups that they're used against, but many other kinds of symbols and
     narratives can be reappropriated as well. Reappropriation allows
     marginalized groups to disarm the people who would do us harm.
-categories:
-    - "advocacy"
+categories: []
 tags:
     - "reappropriation"
     - "satanism"

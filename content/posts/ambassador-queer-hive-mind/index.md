@@ -9,7 +9,7 @@ description: >
     my responsibilities when representing the communities I'm a part of? What
     about when some people in that community disagree with me?
 categories:
-    - "advocacy"
+    - "community"
 tags:
     - "advocacy"
     - "community"

@@ -8,8 +8,7 @@ description: >
     but most people who aren't part of a marginalized group don't fully
     understand why. It's a hard concept to grok if you haven't experienced the
     complete absense of representation of people like you.
-categories:
-    - "advocacy"
+categories: []
 tags:
     - "equality"
     - "marginalization"

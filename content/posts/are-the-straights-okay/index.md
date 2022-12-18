@@ -10,7 +10,7 @@ description: >
     indicative of a larger pattern of miscommunication between queer folks and
     allies who are theoretically on the same side.
 categories:
-    - "advocacy"
+    - "community"
 tags:
     - "discrimination"
     - "feminism"
