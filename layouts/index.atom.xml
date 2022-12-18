@@ -15,7 +15,7 @@
     <email>{{ .Site.Params.author.email }}</email>
     <uri>{{ .Site.Params.author.url }}</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="{{ ref . (dict "path" "." "outputFormat" "atom") }}"/>
+  <link rel="self" type="application/atom+xml" href="{{ absURL "feed/" }}"/>
   <link rel="alternate" type="text/html" href="{{ .Permalink }}" hreflang="{{ .Site.LanguageCode }}"/>
   <generator uri="https://gohugo.io/" version="{{ hugo.Version }}">Hugo</generator>
   <icon>{{ .Site.Params.feed.icon }}</icon>
