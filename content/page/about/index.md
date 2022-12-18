@@ -31,6 +31,14 @@ Please don’t tell me I have “mild” autism—my autism is actually *quite* 
 I also run [Ace Archive](https://acearchive.lgbt), a project to build an online
 archive for preserving asexual history.
 
+I'm a software engineer by day, which is why I spend more time tweaking this
+site than I do actually writing content for it.
+
+On that note, if you find this site inaccessible or difficult to use, please
+contact me [by email](mailto://frawley@nothingradical.blog) or by [opening an
+issue on GitHub](https://github.com/frawleyskid/nothingradical.blog/issues/new)
+(whichever is easiest for you) and I'll get it fixed.
+
 If you want to shoot me a message to make a suggestion, ask a question, leave a
 comment, or get it touch for any other reason, you can email me at:
 
