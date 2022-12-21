@@ -41,7 +41,7 @@ fulfills the roles a romantic partner is expected to fulfill: someone to be
 your emergency contact, someone to split rent or domestic duties with, someone
 to take care of you when you're sick, etc.
 
-That was a hug existential fear of mine for the first few years after coming
+That was a huge existential fear of mine for the first few years after coming
 out as aro. What happens when all my friends inevitably find exclusive romantic
 partners, "settle down," and forget about me?
 
