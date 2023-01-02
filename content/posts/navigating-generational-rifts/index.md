@@ -82,4 +82,4 @@ someday.
 
 Does the fact that I'm thinking about this now inoculate me against it actually
 happening to me when I'm older? Or is failing to adapt to cultural shifts as
-you age just part of the human condition?
+you age just part of being human?
