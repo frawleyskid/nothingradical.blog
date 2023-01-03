@@ -18,7 +18,7 @@ The infrastructure config for the site can be found at
 
 ## Copyright
 
-Copyright © 2022 Frawley
+Copyright © 2020-2023 Frawley
 
 The source code is licensed under GNU GPLv3.
 
