@@ -35,7 +35,7 @@ I'm a software engineer by day, which is why I spend more time fiddling with
 this site than I do actually writing stuff for it.
 
 On that note, if you find this site inaccessible or difficult to use, please
-contact me [by email](mailto://frawley@nothingradical.blog) or by [opening an
+contact me [by email](mailto:frawley@nothingradical.blog) or by [opening an
 issue on GitHub](https://github.com/frawleyskid/nothingradical.blog/issues/new)
 (whichever is easiest for you) and I'll get it fixed.
 
