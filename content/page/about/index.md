@@ -25,14 +25,14 @@ I'm feeling. I consider my orientation to be queer, and beyond that the labels
 aren't too important to me. I'm also non-monogamous and a relationship
 anarchist.
 
-As for my neurodivergence, I’m anxious, autistic, and other things as well.
-Please don’t tell me I have “mild” autism—my autism is actually *quite* spicy.
+As for my neurodivergence, I’m autistic and bipolar. Please don’t tell me I have
+“mild” autism—my autism is actually *quite* spicy.
 
 I also run [Ace Archive](https://acearchive.lgbt), a project to build an online
 archive for preserving asexual history.
 
-I'm a software engineer by day, which is why I spend more time tweaking this
-site than I do actually writing content for it.
+I'm a software engineer by day, which is why I spend more time fiddling with
+this site than I do actually writing stuff for it.
 
 On that note, if you find this site inaccessible or difficult to use, please
 contact me [by email](mailto://frawley@nothingradical.blog) or by [opening an
