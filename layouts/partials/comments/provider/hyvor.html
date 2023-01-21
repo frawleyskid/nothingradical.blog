@@ -12,5 +12,6 @@
     page-url="{{ .Page.Permalink }}"
     page-title="{{ .Params.title }}"
     page-author="{{ .Params.author.email | base64Encode }}"
+    colors="os"
   ></hyvor-talk-comments>
 {{- end }}
