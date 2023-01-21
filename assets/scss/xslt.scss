@@ -1,0 +1,59 @@
+//
+// Styles for the XSLT stylesheet for the Atom feed.
+//
+
+.feed-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  svg {
+    stroke: var(--body-text-color);
+  }
+
+  > svg {
+    width: 80px;
+    height: 80px;
+    display: none;
+  }
+
+  @include respond(sm) {
+    > svg {
+      display: inline;
+    }
+  }
+
+  .feed-title {
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: var(--accent-color);
+    }
+
+    > svg {
+      width: 50px;
+      height: 50px;
+      display: inline;
+    }
+
+    @include respond(sm) {
+      > svg {
+        display: none;
+      }
+    }
+  }
+
+  .feed-text {
+    color: var(--body-text-color);
+  }
+
+  .feed-backlink {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    .link {
+      @extend a, .link;
+    }
+  }
+}

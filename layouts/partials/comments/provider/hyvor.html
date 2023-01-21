@@ -1,13 +1,16 @@
 {{ if eq .Type "posts" -}}
-  {{- $hyvor := resources.Get "js/hyvor.js" | resources.ExecuteAsTemplate (path.Join .RelPermalink "hyvor.js") . | minify -}}
-  {{- $config := resources.Get "js/config.js" | resources.ExecuteAsTemplate (path.Join .RelPermalink "config.js") . | minify | fingerprint "sha512" -}}
-  <div id="hyvor-talk-view"></div>
   <script
-    type="text/javascript"
-    src="{{ $config.RelPermalink }}"
-    integrity="{{ $config.Data.Integrity }}"
+    async
+    src="https://talk.hyvor.com/embed/embed.js"
+    type="module"
     crossorigin="anonymous"
   ></script>
-<script type="text/javascript" defer>{{ $hyvor.Content | safeJS }}</script>
-  <script type="text/javascript" src="//talk.hyvor.com/web-api/embed" defer></script>
+
+  <hyvor-talk-comments
+    website-id="{{ .Site.Params.comments.hyvor.siteid }}"
+    page-id="{{ .Params.id }}"
+    page-url="{{ .Page.Permalink }}"
+    page-title="{{ .Params.title }}"
+    page-author="{{ .Params.author.email | base64Encode }}"
+  ></hyvor-talk-comments>
 {{- end }}

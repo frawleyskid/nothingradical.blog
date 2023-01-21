@@ -1,0 +1,23 @@
+//
+// Styles for Hyvor Talk comments.
+//
+
+[data-scheme="light"] hyvor-talk-comments {
+  --ht-color-accent: #000000;
+  --ht-color-accent-text: #ffffff;
+  --ht-color-box: #ffffff;
+  --ht-color-box-text: #111111;
+  --ht-color-box-text-light: #aaaaaa;
+  --ht-color-box-secondary: #fafafa;
+  --ht-color-box-secondary-text: #484848;
+}
+
+[data-scheme="dark"] hyvor-talk-comments {
+  --ht-color-accent: #ffffff;
+  --ht-color-accent-text: #000000;
+  --ht-color-box: #424242;
+  --ht-color-box-text: #ffffff;
+  --ht-color-box-text-light: #aaaaaa;
+  --ht-color-box-secondary: #4f4f4f;
+  --ht-color-box-secondary-text: #cac7c7;
+}
