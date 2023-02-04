@@ -22,6 +22,7 @@ tags:
 author:
     name: "Frawley"
     email: "frawley@duck.com"
+favorite: true
 ---
 
 *This post was written for the [January 2022 Carnival of

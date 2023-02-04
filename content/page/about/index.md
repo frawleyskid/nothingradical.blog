@@ -4,7 +4,7 @@ description: "Frawley (they/them)"
 slug: "about"
 menu:
   main:
-    weight: 20
+    weight: 30
     params:
       icon: user
 links:

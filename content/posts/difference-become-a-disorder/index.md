@@ -20,6 +20,7 @@ tags:
 author:
     name: "Frawley"
     email: "frawley@duck.com"
+favorite: false
 ---
 
 A common form of hate minority communities face is people pathologizing their

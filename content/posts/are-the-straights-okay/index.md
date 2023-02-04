@@ -20,6 +20,7 @@ tags:
 author:
     name: "Frawley"
     email: "frawley@duck.com"
+favorite: false
 ---
 
 There's a lot of contempt for cisgender heterosexual (cishet) people in queer

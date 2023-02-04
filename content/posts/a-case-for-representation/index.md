@@ -18,6 +18,7 @@ tags:
 author:
     name: "Frawley"
     email: "frawley@duck.com"
+favorite: false
 ---
 
 Marginalized groups have long campaigned for more equal representation in the

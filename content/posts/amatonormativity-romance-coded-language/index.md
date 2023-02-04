@@ -21,6 +21,7 @@ aliases:
 author:
     name: "Frawley"
     email: "frawley@duck.com"
+favorite: false
 ---
 
 Much of the language we use to talk about relationships is steeped in

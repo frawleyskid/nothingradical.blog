@@ -7,7 +7,7 @@ outputs:
   - "html"
 menu:
   main:
-    weight: 40
+    weight: 50
     params:
       icon: search
 ---

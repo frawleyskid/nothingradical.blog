@@ -22,6 +22,7 @@ tags:
 author:
     name: "Frawley"
     email: "frawley@duck.com"
+favorite: true
 ---
 
 *Update (25 May 2022): While I mentioned it in passing, this essay doesn't

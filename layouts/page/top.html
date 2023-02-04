@@ -1,0 +1,20 @@
+{{ define "main" }}
+  {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+  {{ $favoritePages := where $pages "Params.favorite" true }}
+  {{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }}
+  {{ $filtered := ($favoritePages | intersect $notHidden) }}
+  {{ $pag := .Paginate ($filtered) }}
+
+
+  <section class="article-list">
+    {{ range $index, $element := $pag.Pages }}
+      {{ partial "article-list/default" . }}
+    {{ end }}
+  </section>
+
+  {{- partial "pagination.html" . -}}
+{{ end }}
+
+{{ define "right-sidebar" }}
+  {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }}

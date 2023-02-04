@@ -20,6 +20,7 @@ tags:
 author:
     name: "Frawley"
     email: "frawley@duck.com"
+favorite: false
 ---
 
 While most people are familiar with the most common labels queer people use to

@@ -18,6 +18,7 @@ tags:
 author:
     name: "Frawley"
     email: "frawley@duck.com"
+favorite: false
 ---
 
 Traditionally, we categorize our relationships with labels, usually either as

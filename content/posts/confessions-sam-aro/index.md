@@ -2,7 +2,7 @@
 title: "Confessions of a Former \"SAM Aro\""
 slug: "confessions-of-a-former-sam-aro"
 id: "67d19737-a85f-437d-8121-91e28d9a3cbd"
-date: "2021-09-17T01:03:00Z"
+date: "2021-09-16T01:03:00Z"
 description: >
     I used to use the split-attraction model to conceptualize my romantic and
     orientation. Here's why I don't anymore, why the SAM never really made
@@ -20,6 +20,7 @@ tags:
 author:
     name: "Frawley"
     email: "frawley@duck.com"
+favorite: true
 ---
 
 *This post was written for the [September 2021 Carnival of

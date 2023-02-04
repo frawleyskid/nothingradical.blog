@@ -2,7 +2,7 @@
 title: "Plotting My Queer Identity on the Convergence-Divergence Spectrum"
 slug: "plotting-my-queer-identity-on-the-convergence-divergence-spectrum"
 id: "8d60e612-1268-41c7-87d8-a75bbb570e58"
-date: "2022-01-19T00:50:00Z"
+date: "2022-01-18T00:50:00Z"
 description: >
     I use Coyote's concept of a convergent-divergent spectrum to describe some
     feelings about my identity I've been trying to piece together for a while.
@@ -24,6 +24,7 @@ tags:
 author:
     name: "Frawley"
     email: "frawley@duck.com"
+favorite: true
 ---
 *This post was written for the [January 2022 Carnival of
 Aces](https://bringonthepigeons.wordpress.com/2022/01/05/january-2022-carnival-of-aces-divergence-vs-convergence/),

@@ -21,6 +21,7 @@ tags:
 author:
     name: "Frawley"
     email: "frawley@duck.com"
+favorite: false
 ---
 
 I’m autistic, and I consider my autism to be a disability. Not all autistic

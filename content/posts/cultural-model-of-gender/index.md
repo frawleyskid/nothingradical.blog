@@ -21,6 +21,7 @@ tags:
 author:
     name: "Frawley"
     email: "frawley@duck.com"
+favorite: false
 ---
 
 Within the transgender community, there are different conceptual models we use

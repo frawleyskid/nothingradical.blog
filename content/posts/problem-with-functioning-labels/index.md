@@ -21,6 +21,7 @@ tags:
 author:
     name: "Frawley"
     email: "frawley@duck.com"
+favorite: false
 ---
 
 Autism is a disorder that most people are vaguely familiar with. Unfortunately,

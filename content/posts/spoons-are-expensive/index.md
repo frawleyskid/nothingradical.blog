@@ -17,6 +17,7 @@ tags:
 author:
     name: "Frawley"
     email: "frawley@duck.com"
+favorite: false
 ---
 
 It's no surprise that living with a chronic illness or disability in the US can

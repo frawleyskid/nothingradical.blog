@@ -18,6 +18,7 @@ tags:
 author:
     name: "Frawley"
     email: "frawley@duck.com"
+favorite: false
 ---
 
 In an increasingly progressive society, marginalized groups are more and more
