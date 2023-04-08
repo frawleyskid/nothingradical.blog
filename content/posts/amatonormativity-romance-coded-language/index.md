@@ -20,7 +20,7 @@ aliases:
     - "the-amatanormativity-in-romance-coded-language"
 author:
     name: "Frawley"
-    email: "frawley@duck.com"
+    email: "frawley@nothingradical.blog"
 favorite: false
 ---
 

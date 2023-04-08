@@ -14,7 +14,7 @@ tags:
   - "infighting"
 author:
   name: "Frawley"
-  email: "frawley@duck.com"
+  email: "frawley@nothingradical.blog"
 favorite: false
 ---
 

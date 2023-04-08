@@ -23,7 +23,7 @@ tags:
     - "spectrums"
 author:
     name: "Frawley"
-    email: "frawley@duck.com"
+    email: "frawley@nothingradical.blog"
 favorite: true
 ---
 *This post was written for the [January 2022 Carnival of
