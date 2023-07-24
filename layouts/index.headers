@@ -2,7 +2,7 @@
     X-Content-Type-Options: nosniff
     X-Frame-Options: DENY
     Referrer-Policy: strict-origin
-    Content-Security-Policy: default-src 'none'; connect-src 'self' https://*.hyvor.com wss://*.hyvor.com; prefetch-src 'self'; font-src 'self' https://fonts.gstatic.com; script-src 'self' https://cdn.jsdelivr.net 'sha256-EVuOptNwU09DnoUk/lh+TDupJ8yFnl7TfFTFKeIeCeA=' 'sha256-ayQL23Cw0YYrrsYbOGwymK8v76b5rQX/uFmLtYUGskI='; script-src-elem https://talk.hyvor.com; img-src 'self' *; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; manifest-src 'self';
+    Content-Security-Policy: default-src 'none'; connect-src 'self' https://*.hyvor.com wss://*.hyvor.com; prefetch-src 'self'; font-src 'self' https://fonts.gstatic.com; script-src 'self' https://cdn.jsdelivr.net https://talk.hyvor.com 'sha256-EVuOptNwU09DnoUk/lh+TDupJ8yFnl7TfFTFKeIeCeA=' 'sha256-ayQL23Cw0YYrrsYbOGwymK8v76b5rQX/uFmLtYUGskI='; img-src 'self' *; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; manifest-src 'self';
     Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
     Cache-Control: no-cache
     Access-Control-Allow-Origin: *
