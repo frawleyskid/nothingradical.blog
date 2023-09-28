@@ -20,9 +20,8 @@ Hey, I’m Frawley! I’m a queer and neurodivergent nonbinary person, and I go 
 they/them pronouns. I use this blog to share thoughts on issues that are
 important to me—mostly queer issues and neurodiversity.
 
-I call myself aro, ace, bi, gay, quoiro, or maybe other things depending on how
-I'm feeling. I consider my orientation to be queer, and beyond that the labels
-aren't too important to me. I'm also nonmonogamous and a relationship anarchist.
+I call myself aro, ace, gay, queer, or maybe other things depending on how I'm
+feeling. I'm also polyamorous and a relationship anarchist.
 
 As for my neurodivergence, I’m autistic and bipolar. Please don’t tell me I have
 “mild” autism—my autism is actually *quite* spicy.
