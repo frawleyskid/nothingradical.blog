@@ -16,7 +16,7 @@ tags:
 author:
     name: "Frawley"
     email: "frawley@nothingradical.blog"
-favorite: true
+favorite: false
 ---
 
 *This post was written for the [February 2023 Carnival of
