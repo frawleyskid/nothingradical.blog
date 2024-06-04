@@ -18,10 +18,10 @@ The infrastructure config for the site can be found at
 
 ## Copyright
 
-Copyright © 2020-2023 Frawley
+Copyright © 2020-2024 Frawley
 
 The source code is licensed under [GNU GPL v3.0 or
 later](https://spdx.org/licenses/GPL-3.0-or-later.html).
 
-The content of the blog is licensed under [CC BY-NC-ND
-4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+The content of the blog is licensed under [CC BY-NC-SA
+4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
